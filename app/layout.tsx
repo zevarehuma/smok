@@ -12,7 +12,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <head>
         {/* ✅ Google Tag (gtag.js) */}
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-17626768953" />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17626768953"
+          strategy="afterInteractive"
+        />
         <Script
           id="google-ads"
           strategy="afterInteractive"
