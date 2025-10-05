@@ -165,9 +165,7 @@ export default function Page() {
             </Card>
           ))}
         </div>
-        <div className='mt-4 rounded-xl border border-teal-300/30 bg-teal-400/10 p-4 text-sm text-slate-200'>
-          All prices are placeholders. Replace with your official tariffs and legal information.
-        </div>
+
       </section>
 
       <section id='how' className='mx-auto max-w-6xl px-4 py-10'>
